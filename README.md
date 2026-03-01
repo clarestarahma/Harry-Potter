@@ -29,3 +29,17 @@ Welcome to the **Hogwarts Wizarding Portal**! This is a responsive web project b
 ├── revelio/            # Revelio feature page
 ├── index.html          # Main Landing Page (Home)
 └── README.md           # DocumentationA
+```
+
+## 🚀 Getting Started
+
+1.  **Clone the Repository**:
+    ```bash
+    git clone [https://github.com/yourusername/hogwarts-portal.git](https://github.com/yourusername/hogwarts-portal.git)
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    pnpm install
+    ```
+3.  **Launch the Project**:
+    Open `index.html` in your preferred browser. Using a local server extension (like Live Server) is recommended for the best experience.
