@@ -11885,7 +11885,7 @@ html {
 }
 
 .small-mobile-font {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   transition: all 0.3s ease;
 }
 
@@ -11929,10 +11929,10 @@ html {
   border-radius: 8px;
   padding: 8px 16px;
   transition: all 0.4s ease;
+  gap: 2px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 0 0 8px rgb(251, 222, 128);
 }
 
-.link-header a:hover,
 #revelioBtn:hover,
 #diagon-alley:hover {
   color: #fff !important;
@@ -11940,6 +11940,10 @@ html {
   border-color: #d4af37;
   box-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
   transform: translateY(-2px);
+}
+
+.nav-size-icon {
+  font-size: 1.5rem;
 }
 
 .carousel-img {
@@ -12052,9 +12056,11 @@ html {
   text-shadow: 0.5px 0.5px 2px #fff, 0 0 5px rgba(236, 185, 57, 0.7);
 }
 
-@media (max-width: 400px) {
-  .card-title {
-    font-size: 1.15rem !important;
+@media (max-width: 991px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0.25;
+    transition: opacity 0.3s ease;
   }
 }
 @media (max-width: 576px) {
@@ -12062,8 +12068,9 @@ html {
     font-size: 0.85rem !important;
   }
   .nav-logo {
-    height: 35px;
+    height: 42px;
     width: auto;
+    transition: height 0.3s ease-out;
   }
   .house-col,
   .prophet-col {
@@ -12071,10 +12078,14 @@ html {
     padding-right: 7%;
   }
 }
-@media (max-width: 768px) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none;
+@media (max-width: 400px) {
+  .card-title {
+    font-size: 1.15rem !important;
+  }
+  .nav-logo {
+    height: 35px;
+    width: auto;
+    transition: height 0.3s ease-out;
   }
 }
 
