@@ -17,7 +17,7 @@ html {
 }
 
 .small-mobile-font {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     transition: all 0.3s ease;
 }
 
@@ -75,18 +75,14 @@ html {
 }
 
 .nav-size-icon {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    transition: all ease-in;
 }
 
 .carousel-img {
     height: 500px;
     object-fit: cover;
     filter: brightness(60%) sepia(20%);
-}
-
-.carousel-caption {
-    bottom: 10%;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
 }
 
 .card {
@@ -181,13 +177,21 @@ html {
     }
 }
 
+@media (max-width: 767px) {
+    .nav-size-icon {
+        font-size: 1.7rem;
+        transition: all ease-out;
+    }
+}
+
+
 @media (max-width: 576px) {   
     .title-dormitory {
         font-size: 0.85rem !important;
     }
 
     .nav-logo {
-        height: 42px;
+        height: 45px;
         width: auto;
         transition: height 0.3s ease-out;
     }
@@ -197,9 +201,18 @@ html {
         padding-left: 7%;
         padding-right: 7%;
     }
+
+    .carousel-caption p {
+        font: 0.9rem;
+    }
+
+    .nav-size-icon {
+        font-size: 1.6rem;
+        transition: all ease-out;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 467px) {
     .card-title {
         font-size: 1.15rem !important;
     }
@@ -208,5 +221,10 @@ html {
         height: 35px;
         width: auto;
         transition: height 0.3s ease-out;
+    }
+
+    .nav-size-icon {
+        font-size: 1.4rem;
+        transition: all ease-out;
     }
 }
