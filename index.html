@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <link rel="icon" href="./assets/hp-logos.png" type="image/png">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-dark"> 
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow py-3" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="row w-100 align-items-center g-0">
+                    <div class="col-4 d-flex justify-content-start">
+                        <a href="./diagon-alley/index.html" class="btn btn-outline-light rounded-pill d-inline-flex align-items-center justify-content-center p-1 px-md-3 border-0" id="diagon-alley">
+                            <i class="bi bi-shop"></i>
+                            <span class="d-none d-md-inline ms-md-2 font-crimson small-mobile-font">Diagon Alley</span>
+                        </a>
+                    </div>
+                    <div class="col-4 col-lg text-center p-0">
+                        <a class="navbar-brand nav-center" href="#">
+                            <img src="assets/Harry Potter Gold.png" alt="Logo" class="nav-logo">
+                        </a>
+                    </div>
+    
+                    <div class="col-4 d-flex justify-content-end">
+                        <a class="btn btn-outline-light rounded-pill d-inline-flex align-items-center justify-content-center p-1 px-md-3 border-0" id="revelioBtn" href="./revelio/index.html">
+                            <i class="bi bi-eye-fill"></i> 
+                            
+                            <span class="d-none d-md-inline ms-md-2 font-crimson small-mobile-font">Revelio</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <hr class="border-warning border-1 m-0 border-opacity-25">
+    </header>
+
+    <main>
+        <section>
+            <div id="wizardCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <img src="assets/hogwarts_train.jpg" alt="hogwarts train" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption">
+                            <h2 class="display-5 text-warning fw-semibold fs-2-mobile">Hogwarts Train</h2>
+                            <p class="fs-2-mobile">Heading to Hogwarts</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="assets/hogwarts_letter.jpg" alt="hogwarts letter" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption">
+                            <h2 class="display-5 text-warning fw-semibold fs-2-mobile">Hogwarts Letter</h2>
+                            <pc class="fs-2-mobile">Invite You to Hogwarts</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="assets/asap.jpg" alt="Polyjuice" class="d-block w-100 carousel-img">
+                        <div class="carousel-caption">
+                            <h2 class="display-5 text-warning fw-semibold fs-2-mobile">Polyjuice</h2>
+                            <p class="fs-2-mobile">Making Polyjuice</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#wizardCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#wizardCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <hr class="border-warning border-1 m-0 border-opacity-25">
+
+        <section class="container my-5 text-warning">
+            <h2 class="text-center mb-4 text-uppercase ls-3"  id="daily-prophet">The Daily Prophet</h2>
+            <div class="row g-4 justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <div class="col">
+                    <div class="card bg-dark border-warning rounded-4 overflow-hidden h-100 shadow-lg">
+                        <div class="ratio ratio-16x9">
+                            <img src="assets/Sirius Black_ Daily Prophet.jpeg" class="object-fit-cover" alt="Sirius Black Escape from Azkaban">
+                        </div>
+
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold text-warning">Sirius Black Sighted!</h5>
+                            <p class="card-text text-light small">The Ministry of Magic confirms that Sirius Black, the most dangerous prisoner to ever escape Azkaban, has been spotted near Hogsmeade. Wizards and witches are urged to remain vigilant. If you see a large black dog or a man matching Black's description, contact the Auror Office immediately. Do not approach!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark border-warning rounded-4 overflow-hidden h-100 shadow-lg">
+                        <div class="ratio ratio-16x9">
+                            <img src="assets/harry-potter-quidditch.jpg" class="object-fit-cover" alt="Quidditch">
+                        </div>
+
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold text-warning">Quidditch World Cup</h5>
+                            <p class="card-text text-light small">In a stunning turn of events, first-year student Harry Potter has secured a historic win for Gryffindor. Catching the Golden Snitch in record time, Potter has become the youngest Seeker in a century. Professor McGonagall commented that his talent on a broomstick is "simply remarkable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark border-warning rounded-4 overflow-hidden h-100 shadow-lg">
+                        <div class="ratio ratio-16x9">
+                            <img src="assets/unsiderable-no-1.jpeg" class="object-fit-cover" alt="Quidditch">
+                        </div>
+
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold text-warning">Undesirable No. 1</h5>
+                            <p class="card-text text-light small">
+                                Is Harry Potter seeking attention? Sources within the Ministry suggest that Potter’s recent claims regarding the return of You-Know-Who are nothing more than the delusions of a fame-hungry teenager. Minister Cornelius Fudge insists that the wizarding world remains safer than ever.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark border-warning rounded-4 overflow-hidden h-100 shadow-lg">
+                        <div class="ratio ratio-16x9">
+                            <img src="assets/dumbledore-news.jpeg" class="object-fit-cover" alt="Quidditch">
+                        </div>
+
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title fw-bold text-warning">Albus Dumbledore</h5>
+                            <p class="card-text text-light small">Albus Dumbledore, Headmaster of Hogwarts, is under fire once again. Following his controversial support for Harry Potter, many are questioning if the "Greatest Wizard of Our Time" is losing his touch. Rumors of his removal from the Wizengamot have sent shockwaves through the wizarding community.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="border-warning border-1 m-0 border-opacity-25">
+
+        <section class="container-fluid my-5 px-md-5" id="hogwarts-houses">
+            <h2 class="text-center text-warning text-uppercase ls-3 mb-5">Hogwarts Houses</h2>
+            <div class="row g-3 justify-content-center">
+                <div class="col-6 col-md-3">
+                    <div class="house-card gryffindor text-center p-2 p-md-4 h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="house-crest mb-3">
+                            <img src="assets/gryffindor.png" alt="Gryffindor" class="img-fluid house-img">
+                        </div>
+                        <h5 class="title-dormitory font-crimson text-uppercase ls-1 m-0">Gryffindor</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="house-card slytherin text-center p-2 p-md-4 h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="house-crest mb-3">
+                            <img src="assets/slytherin.png" alt="Slytherin" class="img-fluid house-img">
+                        </div>
+                        <h5 class="title-dormitory font-crimson text-uppercase ls-1 m-0 small-mobile-font">Slytherin</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="house-card ravenclaw text-center p-2 p-md-4 h-100 d-flex flex-column align-items-center justify-content-center">
+                        <div class="house-crest mb-3">
+                            <img src="assets/ravenclaw.png" alt="Ravenclaw" class="img-fluid house-img">
+                        </div>
+                        <h5 class="title-dormitory font-crimson text-uppercase ls-1 m-0">Ravenclaw</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="house-card hufflepuff text-center p-2 p-md-4">
+                        <div class="house-crest mb-3">
+                            <img src="assets/hufflepuff.png" alt="Hufflepuff" class="img-fluid house-img">
+                        </div>
+                        <h5 class="title-dormitory font-crimson text-uppercase ls-1 m-0">Hufflepuff</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr class="border-warning border-1 m-0 border-opacity-25">
+
+    <footer class="pt-3 text-center">
+        <div class="container">
+            <img src="assets/Harry Potter Gold.png" alt="" style="height: 30px; opacity: 0.5;" class="mb-3">
+            <p class="text-secondary small mb-0 text-uppercase ls-2">Managed by Ministry of Magic</p>
+            <p class="text-secondary small">&copy; 2026 Claresta</p>
+        </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
